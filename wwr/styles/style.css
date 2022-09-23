@@ -48,6 +48,7 @@ nav a {
     background-color: rgb(57, 87, 117);
     ;
     color: gray;
+
 }
 
 
@@ -55,7 +56,7 @@ nav a:hover,
 footer a:hover {
     background-color: black;
     color: rgb(255, 136, 0);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .book,
@@ -69,6 +70,7 @@ footer a:hover {
 .join:hover {
     background-color: black;
     color: rgb(255, 136, 0);
+    text-decoration: underline;
 }
 
 #background {
@@ -92,5 +94,6 @@ h4,
 
 footer a,
 nav a {
+    text-decoration: none;
     color: white
 }
