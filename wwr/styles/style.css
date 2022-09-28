@@ -78,6 +78,8 @@ footer a:hover {
 }
 
 .msg,
+.msg h2,
+.msg p,
 footer {
     background-color: rgb(57, 87, 117);
     color: white;
@@ -86,9 +88,7 @@ footer {
 
 
 .home-title,
-h4,
-.msg h2,
-.msg p {
+h4 {
     color: black
 }
 
