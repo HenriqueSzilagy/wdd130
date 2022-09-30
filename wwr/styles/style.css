@@ -16,9 +16,39 @@
     padding-top: 10px;
 }
 
+footer .social img {
+    padding-top: 15px;
+
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid rgb(255, 136, 0);
+}
+
+.msg h2 {
+    font-family: Noto Sans, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+}
+
 #content {
     max-width: 1600px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 #hero-img {
@@ -50,22 +80,17 @@ body {
     background-color: rgb(240, 232, 232);
     font-family: Noto Sans, Helvetica, sans-serif;
     font-size: 22px;
-    margin: 0;
     padding: 0;
+    margin: 0;
+}
 
+h2 {
+    margin: 0;
 }
 
 header {
     background-color: rgb(57, 87, 117);
 }
-
-nav a {
-    background-color: rgb(57, 87, 117);
-    ;
-    color: gray;
-    padding: 35px;
-}
-
 
 nav a:hover,
 footer a:hover {
@@ -117,47 +142,20 @@ nav a {
     color: white
 }
 
-.msg h2 {
-    font-family: Noto Sans, Helvetica, sans-serif;
-    font-size: 2em;
-}
-
-.msg p {
-    font-size: .8em;
-    padding-bottom: 15px;
-}
-
-.msg {
-    line-height: 1.5em;
-    padding: 35px;
-}
-
-h2 {
-    margin: 0;
-}
-
 #logo_link {
-    padding: 5px;
+    padding-top: 5px;
+}
+
+nav a {
+    background-color: rgb(57, 87, 117);
+    ;
+    color: gray;
+    padding: 35px;
 }
 
 footer {
     padding: 25px 50px;
     margin-top: 200px;
-}
-
-footer .social img {
-    padding-top: 15px;
-
-}
-
-.rivers-card,
-.camping-card,
-.rapids-card {
-    margin: 200px 0;
-}
-
-.card-img {
-    border: 10px solid rgb(255, 136, 0);
 }
 
 main section img {
