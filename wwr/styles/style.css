@@ -277,6 +277,7 @@ main section img {
         color: #6f7364;
     }
 
+
     .rivers-card,
     .camping-card,
     .rapids-card {
@@ -288,6 +289,8 @@ main section img {
         display: none;
     }
 
+
+
     .mountains,
     .msg {
         width: 80%;
@@ -295,7 +298,56 @@ main section img {
         margin: 0 auto;
     }
 
+
+
     footer {
         margin-top: 25px;
     }
+
+
+
+
+
+
+
+}
+
+
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.rivercard1 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.rivercard3 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+
+.rivercard5 {
+    grid-column: 2/4;
+    grid-row: 6/7;
+}
+
+
+
+#msg1,
+#msg2,
+#msg3 {
+    background-color: rgb(57, 87, 117);
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #000000;
+    width: 100%;
+}
+
+#msg1 {
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
