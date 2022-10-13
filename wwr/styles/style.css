@@ -387,3 +387,46 @@ main section img {
     color: rgb(255, 136, 0);
 
 }
+
+@media screen and (max-width: 900px) {
+
+    #hero,
+    .rivers-grid {
+        display: block;
+        height: auto;
+    }
+
+    nav,
+    footer {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+
+    #hero {
+        margin-top: 0;
+    }
+
+    #hero-box {
+        margin-top: 0;
+    }
+
+    .home-title {
+        font-size: 25px;
+        color: rgb(255, 136, 0);
+    }
+
+    .rivercard1,
+    .rivercard3,
+    .rivercard5 {
+        margin: 50px auto;
+        width: 60%;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+}
