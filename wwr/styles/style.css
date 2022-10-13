@@ -427,9 +427,13 @@ main section img {
 
     .rivercard1,
     .rivercard3,
-    .rivercard5 {
-        margin: 50px auto;
-        width: 60%;
+    .rivercard5,
+    .msg1,
+    .msg2,
+    .msg3 {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
     }
 
     footer {
