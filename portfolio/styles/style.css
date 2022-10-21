@@ -177,6 +177,7 @@ footer a:hover,
 
 .flip-card-back h1,
 .flip-card-back p {
+    font-family: "Merienda", "Brush Script MT", "Century Gothic";
     text-align: center;
     font-size: 6em;
 }
