@@ -43,10 +43,38 @@ nav a {
     color: black;
 }
 
+.welcome-title1 {
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.welcome-title1 h1 {
+    font-family: "Merienda", "Brush Script MT", "Century Gothic";
+    font-size: 3em;
+    text-align: center;
+}
+
+.welcome-title1 p {
+    font-family: Oswald, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+}
+
 .welcome-title h1 {
     font-family: "Merienda", "Brush Script MT", "Century Gothic";
     font-size: 3em;
     text-align: center;
+}
+
+.welcome-title p {
+    font-family: Oswald, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 75px;
+
 }
 
 #hero-box {
@@ -59,6 +87,52 @@ nav a {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(2, 1fr);
+}
+
+.home-grid1 {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 45% 5% 45% 5%;
+}
+
+.stock-class {
+    grid-column: 2/2;
+    grid-row: 1/1;
+    text-align: center;
+}
+
+.stock-class h2 {
+    font-family: "Merienda", "Brush Script MT", "Century Gothic";
+    font-size: 2em;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: black;
+    color: #F58F1D;
+    width: 400px;
+
+}
+
+.dashboard-class {
+    grid-column: 2/2;
+    grid-row: 3/3;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.dashboard-class h2 {
+    font-family: "Merienda", "Brush Script MT", "Century Gothic";
+    font-size: 2em;
+    grid-column: 2/2;
+    grid-row: 4/4;
+    margin-left: 350px;
+    margin-right: 300px;
+    background-color: black;
+    color: #F58F1D;
+    width: 600px;
+
 }
 
 .home-grid h2 {
@@ -193,7 +267,10 @@ footer a:hover,
 @media screen and (max-width: 900px) {
 
     #hero-box,
-    .home-grid {
+    .home-grid,
+    .home-grid1,
+    .stock-class,
+    .dashboard-class {
         display: block;
         height: auto;
     }
@@ -208,19 +285,25 @@ footer a:hover,
         padding: 2px;
     }
 
-    #hero-box {
+    #hero-box,
+    .stock-class,
+    .dashboard-class {
         margin-top: 0;
     }
 
 
 
-    .welcome-title {
+    .welcome-title,
+    .welcome-title1 {
         font-size: 25px;
         color: #6f7364;
     }
 
 
-    .portfolio-link .about-me-link {
+    .portfolio-link,
+    .about-me-link,
+    .dashboard-class,
+    .stock-class {
         margin: 50px auto;
         width: 60%;
     }
