@@ -43,17 +43,20 @@ nav a {
     color: black;
 }
 
+.welcome-title2,
 .welcome-title1 {
     margin-left: 140px;
     margin-right: 140px;
 }
 
+.welcome-title2 h1,
 .welcome-title1 h1 {
     font-family: "Merienda", "Brush Script MT", "Century Gothic";
     font-size: 3em;
     text-align: center;
 }
 
+.welcome-title2 p,
 .welcome-title1 p {
     font-family: Oswald, Helvetica, sans-serif;
     font-size: 2em;
@@ -61,6 +64,12 @@ nav a {
     margin-top: 40px;
     margin-bottom: 70px;
 
+}
+
+.welcome-title2 p {
+    font-size: 1.5em;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .welcome-title h1 {
@@ -94,6 +103,87 @@ nav a {
     grid-template-columns: 10% 80% 10%;
     grid-template-rows: 45% 5% 45% 5%;
 }
+
+.educate-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.educate-grid h2 {
+    grid-column: 3/9;
+    text-align: center;
+    grid-row: 2/2;
+    margin-top: 60px;
+
+}
+
+.educate {
+    grid-column: 3/9;
+    grid-row: 1/1;
+    text-align: center;
+}
+
+.python-img,
+.pyspark-img,
+.powerbi-img,
+.sql-img {
+    text-align: center;
+    margin-top: 60%;
+    margin-inline: 50px;
+}
+
+.python-img,
+#python {
+    grid-column: 4/5;
+    grid-row: 3/3;
+
+
+}
+
+.sql-img,
+#sql {
+    grid-column: 5/6;
+    grid-row: 3/3;
+
+
+}
+
+.powerbi-img,
+#powerbi {
+    grid-column: 6/7;
+    grid-row: 3/3;
+
+}
+
+.pyspark-img,
+#pyspark {
+    grid-column: 7/8;
+    grid-row: 3/3;
+
+
+}
+
+#pyspark,
+#python,
+#sql,
+#powerbi {
+    margin-top: 300px;
+    text-align: center;
+
+}
+
+#cert {
+    grid-row: 3/3;
+    background-color: black;
+    color: #F58F1D;
+    height: 40PX;
+    font-size: 2em;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 .stock-class {
     grid-column: 2/2;
@@ -138,7 +228,7 @@ nav a {
 .home-grid h2 {
     font-family: "Merienda", "Brush Script MT", "Century Gothic";
     font-size: 2em;
-    grid-column: 3/8;
+    grid-column: 3/9;
     grid-row: 1/1;
     text-align: center;
 }
@@ -146,7 +236,7 @@ nav a {
 .home-grid p {
     font-family: Oswald, Helvetica, sans-serif;
     font-size: 1.5em;
-    grid-column: 3/8;
+    grid-column: 3/9;
     grid-row: 1/1;
     text-align: center;
     margin-top: 75px;
@@ -266,13 +356,19 @@ footer a:hover,
 
 @media screen and (max-width: 900px) {
 
+
+    .educate-grid,
+    .educate,
     #hero-box,
     .home-grid,
-    .home-grid1,
     .stock-class,
     .dashboard-class {
         display: block;
         height: auto;
+    }
+
+    .educate-grid h2 {
+        margin-top: 10%;
     }
 
     nav,
@@ -285,9 +381,12 @@ footer a:hover,
         padding: 2px;
     }
 
-    #hero-box,
-    .stock-class,
-    .dashboard-class {
+    .welcome-title2 p {
+        display: block;
+        margin: auto;
+    }
+
+    #hero-box {
         margin-top: 0;
     }
 
@@ -301,11 +400,99 @@ footer a:hover,
 
 
     .portfolio-link,
-    .about-me-link,
-    .dashboard-class,
-    .stock-class {
+    .about-me-link {
         margin: 50px auto;
         width: 60%;
+    }
+
+    .stock-img,
+    .stock-class h2 {
+
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .stock-class h2 {
+        margin-top: 5%;
+    }
+
+    .business-dashboard-img,
+    .dashboard-class h2 {
+
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .flip-card {
+
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    #dash {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .home-grid h2 {
+        margin-top: 50%;
+    }
+
+    .home-grid p {
+        margin-top: 10%;
+    }
+
+    .powerbi-img,
+    .python-img,
+    .pyspark-img,
+    .sql-img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #powerbi,
+    #python,
+    #pyspark,
+    #sql {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #cert {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        margin-top: 40px;
+        width: 60%;
+    }
+
+    .flip-card-back h1,
+    .flip-card-back p {
+        font-size: larger;
+    }
+
+    .business-dashboard-img {
+        margin-top: -25%;
+    }
+
+    .dashboard-class h2 {
+        margin-top: 5%;
+        margin-bottom: 60%;
+    }
+
+    .certificates h2 {
+        margin: 50px auto;
+        width: 40%;
+        background-color: white;
+        align-items: center;
+        text-align: center;
     }
 
     #background {
@@ -315,11 +502,6 @@ footer a:hover,
     footer {
         margin-top: 25px;
     }
-
-
-
-
-
 
 
 }
