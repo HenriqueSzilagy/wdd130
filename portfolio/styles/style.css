@@ -110,11 +110,12 @@ nav a {
 }
 
 .educate-grid h2 {
+    font-family: Oswald, Helvetica, sans-serif;
     grid-column: 3/9;
     text-align: center;
     grid-row: 2/2;
     margin-top: 60px;
-
+    font-weight: lighter;
 }
 
 .educate {
@@ -173,10 +174,11 @@ nav a {
 }
 
 #cert {
+    font-family: "Merienda", "Brush Script MT", "Century Gothic";
     grid-row: 3/3;
     background-color: black;
     color: #F58F1D;
-    height: 40PX;
+    height: 45PX;
     font-size: 2em;
     width: 35%;
     margin-left: auto;
